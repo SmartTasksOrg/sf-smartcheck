@@ -1,0 +1,7 @@
+{
+  "name": "smarttasks/smartcheck",
+  "description": "SmartCheck - native PHP port. Flags confident-but-unsourced AI output. Zero deps.",
+  "license": "Apache-2.0",
+  "type": "library",
+  "bin": ["smartcheck.php"]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "@smarttasks/smartcheck",
+  "version": "3.0.0",
+  "description": "SmartCheck — native Node port. Flags confident-but-unsourced AI output. Zero deps.",
+  "license": "Apache-2.0",
+  "bin": { "smartcheck": "bin/cli.js" },
+  "main": "lib/check.js",
+  "scripts": { "test": "node test/conformance.test.js" },
+  "repository": { "type": "git", "url": "https://github.com/SmartTasksOrg/smartcheck" }
+}

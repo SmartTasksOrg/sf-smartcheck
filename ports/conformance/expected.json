@@ -1,0 +1,136 @@
+{
+  "policy_version": "2026-08-01.1",
+  "results": [
+    {
+      "citation_coverage": 0.0,
+      "issues": [
+        {
+          "confidence": 0.6,
+          "span": "numeric claim with no source",
+          "type": "CHECK-UNSOURCED-NUMBER"
+        }
+      ],
+      "name": "unsourced-3digit",
+      "passed": false
+    },
+    {
+      "citation_coverage": 1.0,
+      "issues": [],
+      "name": "sourced-3digit",
+      "passed": true
+    },
+    {
+      "citation_coverage": 0.0,
+      "issues": [
+        {
+          "confidence": 0.6,
+          "span": "numeric claim with no source",
+          "type": "CHECK-UNSOURCED-NUMBER"
+        }
+      ],
+      "name": "unsourced-percent",
+      "passed": false
+    },
+    {
+      "citation_coverage": 0.0,
+      "issues": [
+        {
+          "confidence": 0.6,
+          "span": "numeric claim with no source",
+          "type": "CHECK-UNSOURCED-NUMBER"
+        }
+      ],
+      "name": "unsourced-percent-space",
+      "passed": false
+    },
+    {
+      "citation_coverage": 0.0,
+      "issues": [
+        {
+          "confidence": 0.6,
+          "span": "numeric claim with no source",
+          "type": "CHECK-UNSOURCED-NUMBER"
+        }
+      ],
+      "name": "unsourced-magnitude",
+      "passed": false
+    },
+    {
+      "citation_coverage": 0.0,
+      "issues": [],
+      "name": "two-digit-not-flagged",
+      "passed": true
+    },
+    {
+      "citation_coverage": 0.5,
+      "issues": [
+        {
+          "confidence": 0.7,
+          "span": "internal contradiction",
+          "type": "CHECK-CONTRADICTION"
+        }
+      ],
+      "name": "contradiction",
+      "passed": false
+    },
+    {
+      "citation_coverage": 0.5,
+      "issues": [
+        {
+          "confidence": 0.5,
+          "span": "hedged/uncertain claim stated as fact",
+          "type": "CHECK-HEDGED"
+        }
+      ],
+      "name": "hedged",
+      "passed": false
+    },
+    {
+      "citation_coverage": 0.5,
+      "issues": [
+        {
+          "confidence": 0.9,
+          "span": "known seeded error (demo)",
+          "type": "CHECK-SEEDED"
+        }
+      ],
+      "name": "seeded",
+      "passed": false
+    },
+    {
+      "citation_coverage": 0.5,
+      "issues": [],
+      "name": "clean-no-digits",
+      "passed": true
+    },
+    {
+      "citation_coverage": 0.0,
+      "issues": [
+        {
+          "confidence": 0.6,
+          "span": "numeric claim with no source",
+          "type": "CHECK-UNSOURCED-NUMBER"
+        },
+        {
+          "confidence": 0.5,
+          "span": "hedged/uncertain claim stated as fact",
+          "type": "CHECK-HEDGED"
+        }
+      ],
+      "name": "combo-number-hedge",
+      "passed": false
+    },
+    {
+      "citation_coverage": 1.0,
+      "issues": [
+        {
+          "confidence": 0.7,
+          "span": "internal contradiction",
+          "type": "CHECK-CONTRADICTION"
+        }
+      ],
+      "name": "sourced-with-contradiction",
+      "passed": false
+    }
+  ]
+}

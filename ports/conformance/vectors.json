@@ -1,0 +1,18 @@
+{
+  "policy_version": "2026-08-01.1",
+  "description": "Shared SmartCheck conformance vectors. Every port must reproduce the Python reference's Verdict for each case. Regenerate expected.json with gen_expected.py after changing this file.",
+  "cases": [
+    { "name": "unsourced-3digit",        "answer": "Revenue grew by 340 units last year.",                 "sources": "" },
+    { "name": "sourced-3digit",          "answer": "Revenue grew by 340 units last year.",                 "sources": "internal finance report 2025" },
+    { "name": "unsourced-percent",       "answer": "Adoption rose 20% in Q3.",                            "sources": "" },
+    { "name": "unsourced-percent-space",  "answer": "Margin improved by 7.2 % overall.",                   "sources": "" },
+    { "name": "unsourced-magnitude",     "answer": "The market reached 1.6 million users.",                "sources": "" },
+    { "name": "two-digit-not-flagged",   "answer": "There were 42 apples on the table.",                  "sources": "" },
+    { "name": "contradiction",           "answer": "It always works and it never fails.",                 "sources": "" },
+    { "name": "hedged",                  "answer": "I think this is the correct configuration.",           "sources": "" },
+    { "name": "seeded",                  "answer": "The capital is Berlin. [contains seeded error]",       "sources": "" },
+    { "name": "clean-no-digits",         "answer": "The sky appears blue due to Rayleigh scattering.",     "sources": "" },
+    { "name": "combo-number-hedge",      "answer": "Maybe around 500 people attended.",                   "sources": "" },
+    { "name": "sourced-with-contradiction", "answer": "It always passes but never breaks; 900 runs.",     "sources": "ci logs" }
+  ]
+}
