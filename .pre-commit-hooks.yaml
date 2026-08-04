@@ -1,0 +1,5 @@
+- id: smartcheck
+  name: SmartCheck
+  entry: smartcheck --demo
+  language: python
+  pass_filenames: false

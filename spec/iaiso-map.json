@@ -1,0 +1,21 @@
+{
+  "tool": "SmartCheck",
+  "package": "smartcheck",
+  "version": "3.0.0",
+  "iaiso_section": "\u00a72 \u00b7 Verification",
+  "rule_prefix": "CHECK-*",
+  "conforms_to": "https://github.com/SmartTasksOrg/IAIso",
+  "cloud": "https://smarttasks.cloud",
+  "stacks_with": [
+    "SmartSeal",
+    "SmartStandard"
+  ],
+  "starter_kits": {
+    "Python": "https://github.com/SmartTasksOrg/IAIso/tree/main/starter-kits/python",
+    "Node / TypeScript": "https://github.com/SmartTasksOrg/IAIso/tree/main/starter-kits/node",
+    "Go": "https://github.com/SmartTasksOrg/IAIso/tree/main/starter-kits/go",
+    "Java": "https://github.com/SmartTasksOrg/IAIso/tree/main/starter-kits/java",
+    "PHP": "https://github.com/SmartTasksOrg/IAIso/tree/main/starter-kits/php",
+    "Rust": "https://github.com/SmartTasksOrg/IAIso/tree/main/starter-kits/rust"
+  }
+}

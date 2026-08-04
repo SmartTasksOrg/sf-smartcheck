@@ -1,0 +1,21 @@
+{
+  "family": "Smart*",
+  "tool": "SmartCheck",
+  "version": "3.0.0",
+  "iaiso_section": "\u00a72 \u00b7 Verification",
+  "share_mode": "public",
+  "cross_promote": [
+    "SmartPangolin",
+    "SmartPrompt",
+    "SmartSeal",
+    "SmartStandard",
+    "SmartSim",
+    "SmartMoat",
+    "SmartRoute",
+    "SmartFeed"
+  ],
+  "links": {
+    "iaiso": "https://iaiso.org",
+    "cloud": "https://smarttasks.cloud"
+  }
+}
