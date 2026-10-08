@@ -1,4 +1,4 @@
-<!-- mcp-name: io.github.smarttasksorg/sf-smartcheck · part of the Smart* family -->
+<!-- mcp-name: io.github.smarttasksorg/sf-smartcheck -->
 <h1 align="center">🦔 SmartCheck</h1>
 <p align="center"><b>Check before you sign off. Catch the AI when it's confidently wrong.</b></p>
 <p align="center">
@@ -15,14 +15,31 @@ As AI reshapes how we work, a new gap opens: you review ai output you didn't pro
 `check` at the exact moment the gap bites, and it works the second you clone it
 (a synthetic demo ships in `demo/`).
 
-SmartCheck is not published on PyPI yet. Until this README says otherwise, a package called `smartcheck` on any registry is not ours.
+## Install
+
+SmartCheck is not published on PyPI or any other package registry yet. Until
+this section says otherwise, a package called `sf-smartcheck` on any registry
+is not ours, and neither is `smartcheck`.
+
+Install from a clone (Python 3.10 or later):
 
 ```bash
 git clone https://github.com/SmartTasksOrg/sf-smartcheck
 cd sf-smartcheck
+python -m venv .venv
+. .venv/bin/activate          # Windows PowerShell: .\.venv\Scripts\Activate.ps1
 python -m pip install .
-sf-smartcheck --demo        # run against the bundled demo
+sf-smartcheck --demo
 ```
+
+## Status
+
+- **Version 3.0.0, experimental.** A small deterministic command-line tool with a bundled synthetic demo and two smoke tests.
+- **Published:** nowhere yet; install from a clone (above).
+- **Tested:** the 2 smoke tests in `tests/` on Python 3.12, Linux, on every push to master and every pull request (`.github/workflows/ci.yml`).
+- **Not tested:** Windows and macOS; Python versions other than 3.12.
+- **Ports:** Go, Java, Node and PHP ports in `ports/` are checked against the Python reference by `ports/conformance/run.sh` (run by hand, not in CI); they are not published on any registry.
+- **Security review:** none independent. Report vulnerabilities as described in [SECURITY.md](SECURITY.md).
 
 ## Run it in your stack
 
