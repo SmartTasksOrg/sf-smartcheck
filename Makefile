@@ -1,5 +1,5 @@
 test:
-	python tests/test_smartcheck.py
+	python -m pytest -q
 demo:
 	python -m sf_smartcheck --demo
 build:
