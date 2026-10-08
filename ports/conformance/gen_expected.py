@@ -13,7 +13,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 SRC = os.path.abspath(os.path.join(HERE, "..", "..", "src"))
 sys.path.insert(0, SRC)
 
-from smartcheck.core import check  # noqa: E402
+from sf_smartcheck.core import check  # noqa: E402
 
 
 def verdict_to_dict(name, v):

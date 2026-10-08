@@ -1,5 +1,5 @@
-- id: smartcheck
+- id: sf-smartcheck
   name: SmartCheck
-  entry: smartcheck --demo
+  entry: sf-smartcheck --demo
   language: python
   pass_filenames: false

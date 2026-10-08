@@ -5,7 +5,7 @@ in Go, Node, Java, and PHP, so the same governance gate runs in any stack — CI
 pre-commit, a Java service, a PHP app — with **no Python runtime**.
 
 Every port is held to one contract: it must reproduce the **Python reference**
-(`src/smartcheck/core.py`) exactly — same rule IDs, confidences, span strings,
+(`src/sf_smartcheck/core.py`) exactly — same rule IDs, confidences, span strings,
 ordering, and citation-coverage — for every case in `conformance/vectors.json`.
 
 ## Rules (identical across all ports)

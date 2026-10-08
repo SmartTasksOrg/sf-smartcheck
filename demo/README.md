@@ -1,2 +1,2 @@
 # SmartCheck demo
-Bundled sample data; `smartcheck --demo` uses built-ins.
+Bundled sample data; `sf-smartcheck --demo` uses built-ins.
