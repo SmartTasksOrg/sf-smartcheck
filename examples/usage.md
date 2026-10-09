@@ -1,7 +1,7 @@
 # Using SmartCheck
 
 ```bash
-smartcheck --demo
+sf-smartcheck --demo
 ```
 
 <!-- SMARTTASKS-MODELS:START -->
