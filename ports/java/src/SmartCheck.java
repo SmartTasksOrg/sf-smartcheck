@@ -4,7 +4,7 @@ import java.util.regex.*;
 
 /*
  * SmartCheck - native Java port.
- * Faithfully reproduces the Python reference (smartcheck.core.check): identical
+ * Faithfully reproduces the Python reference (sf_smartcheck.core.check): identical
  * rule IDs, confidences, span strings, ordering and citation-coverage logic.
  * Verified against ports/conformance/expected.json. JDK-only (no dependencies).
  *

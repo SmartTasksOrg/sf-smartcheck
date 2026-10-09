@@ -1,33 +1,39 @@
 {
   "schema": 1,
-  "repo": "SmartTasksOrg/smartcheck",
+  "repo": "SmartTasksOrg/sf-smartcheck",
   "checked_on": "2026-10-08",
   "names": [
     {
       "registry": "pypi",
-      "name": "smartcheck",
+      "name": "sf-smartcheck",
       "registered": false,
       "workflow": "release.yml",
       "note": "first release pending; README in state A"
     },
     {
+      "registry": "pypi",
+      "name": "smartcheck",
+      "registered": false,
+      "note": "not used by the family: packages are published as sf-<name>; never install this name"
+    },
+    {
       "registry": "mcp",
-      "name": "io.github.smarttasksorg/smartcheck",
+      "name": "io.github.smarttasksorg/sf-smartcheck",
       "registered": false
     },
     {
       "registry": "npm",
-      "name": "@smarttasks/smartcheck",
+      "name": "sf-smartcheck",
       "registered": false
     },
     {
       "registry": "packagist",
-      "name": "smarttasks/smartcheck",
+      "name": "smarttasksorg/sf-smartcheck",
       "registered": false
     },
     {
       "registry": "go",
-      "name": "github.com/SmartTasksOrg/smartcheck/ports/go",
+      "name": "github.com/SmartTasksOrg/sf-smartcheck/ports/go",
       "registered": false
     },
     {

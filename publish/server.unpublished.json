@@ -1,16 +1,16 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
-  "name": "io.github.smarttasksorg/smartcheck",
+  "name": "io.github.smarttasksorg/sf-smartcheck",
   "description": "Check before you sign off. Catch the AI when it's confidently wrong.",
   "version": "3.0.0",
   "repository": {
-    "url": "https://github.com/SmartTasksOrg/smartcheck",
+    "url": "https://github.com/SmartTasksOrg/sf-smartcheck",
     "source": "github"
   },
   "packages": [
     {
       "registryType": "pypi",
-      "identifier": "smartcheck",
+      "identifier": "sf-smartcheck",
       "version": "3.0.0",
       "transport": {
         "type": "stdio"

@@ -8,7 +8,7 @@ import json
 import os
 import sys
 
-from smartcheck.core import check
+from sf_smartcheck.core import check
 
 TOOL_NAME = "smartcheck_check"
 DESCRIPTION = "Flag confident-but-unsourced AI output: unsourced numbers, contradictions, hedging, seeded errors."

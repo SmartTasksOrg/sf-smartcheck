@@ -1,6 +1,6 @@
 # SmartCheck port conformance contract
 
-The Python core (`src/smartcheck/core.py`) is the source of truth. A port is
+The Python core (`src/sf_smartcheck/core.py`) is the source of truth. A port is
 correct **iff** it produces the same `Verdict` as the reference for every case
 in `conformance/vectors.json`.
 

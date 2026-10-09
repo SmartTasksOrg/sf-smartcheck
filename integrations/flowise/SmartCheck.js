@@ -1,6 +1,6 @@
 // Flowise custom node for SmartCheck (IAIso governance).
 // Copy this folder into Flowise's components/nodes/ (or load as a custom tool).
-// It shells out to the shipped adapter.py, so smartcheck must be importable
+// It shells out to the shipped adapter.py, so sf-smartcheck must be importable
 // (install SmartCheck from a clone: python -m pip install . ; it is not on PyPI yet)
 // or PYTHONPATH set to the repo src/.
 const path = require('path');

@@ -4,7 +4,7 @@
 Speaks the Model Context Protocol over stdio (newline-delimited JSON-RPC 2.0),
 so it plugs into any MCP client: Claude Desktop, Cursor, Cline, Windsurf, Zed,
 Continue. Register:
-  { "mcpServers": { "smartcheck": { "command": "python3",
+  { "mcpServers": { "sf-smartcheck": { "command": "python3",
       "args": ["/abs/path/integrations/mcp/server.py"] } } }
 """
 import json
@@ -15,7 +15,7 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 import adapter
 
 PROTOCOL = "2024-11-05"
-SERVER = {"name": "smartcheck", "version": "3.0.0"}
+SERVER = {"name": "sf-smartcheck", "version": "3.0.0"}
 TOOLS = [{"name": adapter.TOOL_NAME, "description": adapter.DESCRIPTION, "inputSchema": adapter.INPUT_SCHEMA}]
 
 

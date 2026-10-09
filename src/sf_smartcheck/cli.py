@@ -1,4 +1,4 @@
-"""SmartCheck CLI — run `smartcheck --demo`."""
+"""SmartCheck CLI — run `sf-smartcheck --demo`."""
 import os, sys, json
 from . import core
 from ._version import __version__
