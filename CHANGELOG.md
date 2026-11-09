@@ -2,6 +2,17 @@
 
 ## Unreleased
 
+### Changed (breaking)
+- `check(answer, sources)` now treats `sources` as the source text and checks the answer against it. Before, any non-empty `sources` passed every numeric claim. New issues: `CHECK-NUMBER-NOT-IN-SOURCE`, `CHECK-UNSUPPORTED`; `citation_coverage` is the share of supported sentences.
+- The demo marker `[contains seeded error]` and `CHECK-SEEDED` are gone from `core`.
+
+### Added
+- Optional `judge=` for model-based support checks, failing safe; works on Chinese text.
+- CLI: `sf-smartcheck ANSWER [--sources FILE ...] [--json]`, exit code 1 when anything is flagged.
+
+### Tests
+- `tests/test_behaviour.py` now has 15 behaviour tests covering real input, validation and the CLI.
+
 ### Tests
 - `tests/test_behaviour.py`: 8 behaviour tests of `core` (every rule or formula, edge cases and the fallbacks), next to the 2 smoke tests of the demo.
 

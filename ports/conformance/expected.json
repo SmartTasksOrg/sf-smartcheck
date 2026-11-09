@@ -14,10 +14,21 @@
       "passed": false
     },
     {
-      "citation_coverage": 1.0,
-      "issues": [],
+      "citation_coverage": 0.0,
+      "issues": [
+        {
+          "confidence": 0.8,
+          "span": "340",
+          "type": "CHECK-NUMBER-NOT-IN-SOURCE"
+        },
+        {
+          "confidence": 0.7,
+          "span": "Revenue grew by 340 units last year.",
+          "type": "CHECK-UNSUPPORTED"
+        }
+      ],
       "name": "sourced-3digit",
-      "passed": true
+      "passed": false
     },
     {
       "citation_coverage": 0.0,
@@ -87,15 +98,9 @@
     },
     {
       "citation_coverage": 0.5,
-      "issues": [
-        {
-          "confidence": 0.9,
-          "span": "known seeded error (demo)",
-          "type": "CHECK-SEEDED"
-        }
-      ],
+      "issues": [],
       "name": "seeded",
-      "passed": false
+      "passed": true
     },
     {
       "citation_coverage": 0.5,
@@ -121,12 +126,22 @@
       "passed": false
     },
     {
-      "citation_coverage": 1.0,
+      "citation_coverage": 0.0,
       "issues": [
         {
           "confidence": 0.7,
           "span": "internal contradiction",
           "type": "CHECK-CONTRADICTION"
+        },
+        {
+          "confidence": 0.8,
+          "span": "900",
+          "type": "CHECK-NUMBER-NOT-IN-SOURCE"
+        },
+        {
+          "confidence": 0.7,
+          "span": "It always passes but never breaks; 900 runs.",
+          "type": "CHECK-UNSUPPORTED"
         }
       ],
       "name": "sourced-with-contradiction",
